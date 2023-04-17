@@ -1,2 +1,2 @@
-# ImpactXM-Plug-in
-AutoCAD Plug In
+# ImpactXM Plug In
+An AutoCAD Plug In for Detailers.
