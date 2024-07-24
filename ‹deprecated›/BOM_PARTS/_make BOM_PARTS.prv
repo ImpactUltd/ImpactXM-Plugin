@@ -1,0 +1,38 @@
+(PRV-DEF
+  (:target .
+    "C:/Users/chris/AppData/Roaming/Autodesk/ApplicationPlugins/Impact XM Plug-Ins.bundle/Contents/IXM_BOM_PARTS.VLX"
+  )
+  (:active-x . T)
+  (:separate-namespace)
+  (:protected . T)
+  (:load-file-list
+    ;;┌──────────────────────────────────────────────────────────────────────┐
+    ;;│ Load SUB Routines                                                    │
+    ;;└──────────────────────────────────────────────────────────────────────┘
+    (:lsp "sr-BOMDictionaries.lsp")
+    (:lsp "sr-CopyPartBlock.lsp")
+    (:lsp "sr-CreateBOMPart.lsp")
+    (:lsp "sr-CreateNewBOMLayout.lsp")
+    (:lsp "sr-DrawBOMTables.lsp")
+    (:lsp "sr-Dialogs.lsp")
+    (:lsp "sr-DrawTable.lsp")
+    (:lsp "sr-EditBOMPart.lsp")
+    (:lsp "sr-ExportBOMParts.lsp")
+    (:lsp "sr-GetPartData.lsp")
+    (:lsp "sr-GetPartSize.lsp")
+    (:lsp "sr-GetTabulatedData.lsp")
+    (:lsp "sr-ListBOMparts.lsp")
+    (:lsp "sr-MakePartBlock.lsp")
+    (:lsp "sr-PrintLists.lsp")
+    (:lsp "sr-SeparateBOMParts.lsp")
+    (:lsp "sr-UpdatePartData.lsp")
+    ;;┌──────────────────────────────────────────────────────────────────────┐
+    ;;│ Load MAIN Routines                                                   │
+    ;;└──────────────────────────────────────────────────────────────────────┘
+    (:lsp "BOM_PARTS.lsp")
+  )
+  (:require-file-list)
+  (:ob-directory)
+  (:tmp-directory)
+  (:optimization . st)
+)

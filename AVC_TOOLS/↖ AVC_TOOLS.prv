@@ -1,0 +1,24 @@
+(PRV-DEF 
+  (:target . "../../Impact XM.bundle/Contents/IXM_AVC_TOOLS.VLX")
+  (:active-x . T)
+  (:separate-namespace)
+  (:protected . T)
+  (:load-file-list
+    (:lsp "DATATABLES.lsp")
+    (:lsp "AVC_PALETTES.lsp")
+  )
+
+
+
+
+
+
+
+
+
+
+  (:require-file-list)
+  (:ob-directory . "../.tmp")
+  (:tmp-directory . "../.tmp")
+  (:optimization . st)
+)

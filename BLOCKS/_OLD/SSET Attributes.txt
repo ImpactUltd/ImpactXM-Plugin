@@ -1,0 +1,22 @@
+CLIENT              :  %<AcSm SheetSet.01-CLIENT>%
+PROJECT_NO          :  %<AcSm SheetSet.02-PROJECT #>%
+ORIGINAL_PROJECT_NO :  -
+SHOW                :  %<AcSm SheetSet.03-SHOW NAME>%
+LOCATION            :  %<AcSm SheetSet.04-SHOW LOCATION>%
+SHOWDATE            :  %<AcSm SheetSet.05-SHOW DATES>%
+SHIP_DATE           :  %<AcSm SheetSet.06-SHIP DATE>%
+BOOTH_NO            :  %<AcSm SheetSet.07-BOOTH #>%
+PM                  :  %<AcSm SheetSet.08-PM>%
+DET                 :  %<AcSm SheetSet.09-DETAILER>%
+REV                 :  %<AcSm SheetSet.11-REVISION>%
+CAD_DWG_TITLE       :  %<$(substr,$(getvar, "dwgname"),11,$(-,$(strlen,$(getvar,"dwgname")),17))>%
+PAGE_TITLE          :  %<$(substr,$(getvar, "ctab"),4)>%
+SHEET_NO            :  %<AcSm Sheet.Number>%
+TOTAL_SHEETS        :  %<AcSm SheetSet.10-TOTAL SHEETS>%
+
+
+
+SHEET_NO       :  %<$(substr,$(getvar, "ctab"),1,2)>%
+REV            :  %<$(substr,$(getvar, "dwgname"),$(-,$(strlen,$(getvar,"dwgname")),5),2)>%
+CAD_DWG_TITLE  :  %<$(substr,$(getvar, "dwgname"),11,$(-,$(strlen,$(getvar,"dwgname")),17))>%
+PAGE_TITLE     :  %<$(substr,$(getvar, "ctab"),4)>%Regenerating layout.

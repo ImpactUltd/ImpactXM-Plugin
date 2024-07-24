@@ -1,0 +1,24 @@
+(PRV-DEF 
+  (:target . "../../Impact XM.bundle/Contents/IXM_LAYERS.VLX")
+  (:active-x . T)
+  (:separate-namespace)
+  (:protected . T)
+  (:load-file-list
+    (:lsp "CHANGE_LAYER.lsp")
+    (:lsp "LAYER_ISOLATE_FREEZE.lsp")
+  )
+
+
+
+
+
+
+
+
+
+
+  (:require-file-list)
+  (:ob-directory . "../.tmp")
+  (:tmp-directory . "../.tmp")
+  (:optimization . st)
+)

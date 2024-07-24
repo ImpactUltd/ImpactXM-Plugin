@@ -1,0 +1,50 @@
+(list 
+   '("WALL PANEL SCHEDULE" 
+          "STANDARD PANEL"
+          "ACCESSORY PANEL"
+          "CUSTOM PANEL"
+          "CORNER CONNECTOR"
+          "TEE CONNECTOR"
+          "STRAIGHT CONNECTOR"
+          "LEFT HAND DOOR PANEL"
+          "RIGHT HAND DOOR PANEL"
+    )
+   '("SYSTEMS SCHEDULE"
+          "BEAM"
+          "POST"
+          "POST w/LEVELER"
+    )
+   '("SYSTEMS INFILL SCHEDULE"
+          "SINTRA" "PLEXI"
+          "ACRYLIC"
+          "LAMINATE / SUBSTRATE"
+          "ACM (ALUMINUM COMPOSITE MATERIAL)"
+    ) 
+   '("SCHEDULE"
+          "DESCRIPTION"
+    )
+   '("OVERLAY SCHEDULE"
+          "SINTRA"
+    )
+   '("MATRIX MISC PART SCHEDULE"
+          "MISC PART"
+    )
+   '("MATRIX INFILL SCHEDULE"
+          "SINTRA"
+          "PLEXI"
+          "ACRYLIC"
+          "LAMINATE / SUBSTRATE"
+          "ACM (ALUMINUM COMPOSITE MATERIAL)"
+    )
+   '("MATRIX FRAME SCHEDULE"
+          "STRAIGHT FRAME"
+          "CURVED FRAME"
+          "DOOR FRAME"
+    )
+   '("MATRIX CONNECTION POST SCHEDULE"
+          "CONNECTION POST"
+    )
+   '("MATRIX CONNECTION HARDWARE SCHEDULE"
+          "CONNECTION HARDWARE"
+    )
+)
